@@ -1,0 +1,18 @@
+.HeroBg{
+    background-image:url("/public/media/farm2-sectionbg3.png");
+    height: 35rem;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+#rightSection{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    
+}
+#leftSection{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#rightSection h1{
+    font-size: "300rem";
+
+}

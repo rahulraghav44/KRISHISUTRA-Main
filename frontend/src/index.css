@@ -1,0 +1,267 @@
+body {
+  background-image: url("../public/media/lines.png");
+  background-repeat: repeat;
+  z-index: -1;
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.aboutBackground{
+  
+  background-image: url("../public/media/farm2-sectionbg3.png");
+  height: 100%;
+  margin-top: -50px;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-link{
+  margin-left: 40px;
+
+}
+.navbar{
+  width: 100%;
+  background-color: #2d4838;
+  color: white;
+}
+
+
+
+button{
+  margin-left: 6rem;
+  background-color: #5e9b50;
+  padding: 15px 40px 15px 40px;
+  font-size: 15px;
+  height: 80px;
+  width: 250px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+
+
+
+
+.title{
+  margin-left:400px;
+  margin-top: 50px;
+}
+nav{
+  color: white;
+}
+.team{
+  margin-top: 5rem;
+}
+
+.Service{
+  margin-top: 2rem;
+  margin-left: 9rem;
+}
+
+#navbarSupportedContent{
+  margin-left: 40rem;
+
+}
+#logo{
+  height: 80px;
+}
+.SupportBackgroundImage{
+  background-image: url("../public/media/farm2-sectionbg5.jpg");
+  height: 60rem;
+  width: 100%;
+}
+.detail{
+  background-image: url('../public/media/farm2-sectionbg3.png');
+  height: 60rem;
+  width: 78rem;
+  margin-top: -20rem;
+  margin-left: 15rem;
+}
+/* footer */
+
+footer{
+  height: 37rem;
+  position: relative;
+  
+  background-image: url("../public/media/footer-bg.png");
+  
+}
+
+
+.reponsive-map{
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 30%;
+  position: relative;
+}
+.reponsive-map iframe{
+  border: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+
+
+
+
+.hero_HomePage img{
+  height: 100%;
+  width: 100%;
+  margin-bottom: -50rem;
+}
+
+.hero_HomePage{
+ 
+  height: 55rem;
+  width: 100%;
+  
+ 
+  margin : 0 0 20rem -0.7rem;
+ }
+ 
+ .hero_HomePage h2{
+  
+   margin: 20% 0 5% 0;  
+   padding-left: 27rem;
+   font-family: Georgia, serif;
+   font-size: 45px;
+   
+   
+  
+ }
+ 
+ #borderBottom {
+   border-bottom: 5px solid green;
+   position: absolute;
+  
+   bottom: 45%;
+   left: 42%;
+   
+   
+ }
+ #text-bg{
+  background-image: url('../public/media/footer-bg.jpeg');
+  width: 50%;
+  font-size: 1.5rem;
+  padding: 2% 3% ;
+  margin: 5% 0 2% 25%;
+ 
+}
+
+#textArea-bg{
+  background-image: url('../public/media/footer-bg.jpeg');
+  width: 50%;
+  font-size: 1.5rem;
+  padding: 2% 3% ;
+  margin: 5% 0 5% 25%;
+ 
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* for plot graph */
+
+.center-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 100vh;           /* Takes the full height of the viewport */
+  text-align: center;      /* Ensures any text is centered as well */
+}
+.plot-image {
+  width: 800px;   /* Set your desired width */
+  height: 600px;  /* Set your desired height */
+}
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #34495e;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+tr:hover {
+  background: #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
